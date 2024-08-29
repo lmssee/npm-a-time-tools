@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationDir": "dist/types"
+  },
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist"
+  ]
+}
